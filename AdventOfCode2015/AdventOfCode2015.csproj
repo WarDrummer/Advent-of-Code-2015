@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CFAFA192-88D0-427E-AC12-00DEFBD15F6B}</ProjectGuid>
+    <ProjectGuid>{700043E2-E87A-43FB-B1B8-7EDB05A393BE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>day1</RootNamespace>
-    <AssemblyName>day1</AssemblyName>
+    <RootNamespace>AdventOfCode2015</RootNamespace>
+    <AssemblyName>AdventOfCode2015</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="input.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <ProjectReference Include="..\AdventOfCode2015.Solutions\AdventOfCode2015.Solutions.csproj">
+      <Project>{d79c2757-ae20-4a30-859f-2f5036f20130}</Project>
+      <Name>AdventOfCode2015.Solutions</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
