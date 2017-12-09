@@ -105,6 +105,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProblemTimerDecorator.cs" />
     <Compile Include="SubsetSum.cs" />
+    <Compile Include="Day11\Day11A.cs" />
+    <Compile Include="Day11\Day11B.cs" />
+    <Compile Include="StringIncrementer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Day10\day10.in">
@@ -149,8 +152,14 @@
     <None Include="Day9\day9.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Day11\day11.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Day11\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

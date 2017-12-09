@@ -38,8 +38,8 @@ namespace AdventOfCode2015.Solutions
         public static readonly string Day9B = typeof(Day9B).FullName;
         public static readonly string Day10A = typeof(Day10A).FullName;
         public static readonly string Day10B = typeof(Day10B).FullName;
-        //public static readonly string Day11A = typeof(Day11A).FullName;
-        //public static readonly string Day11B = typeof(Day11B).FullName;
+        public static readonly string Day11A = typeof(Day11A).FullName;
+        public static readonly string Day11B = typeof(Day11B).FullName;
         //public static readonly string Day12A = typeof(Day12A).FullName;
         //public static readonly string Day12B = typeof(Day12B).FullName;
         //public static readonly string Day13A = typeof(Day13A).FullName;
