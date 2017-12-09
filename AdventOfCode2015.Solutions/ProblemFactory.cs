@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using AdventOfCode2015.Solutions.Day1;
 using AdventOfCode2015.Solutions.Day10;
+using AdventOfCode2015.Solutions.Day11;
 using AdventOfCode2015.Solutions.Day16;
 using AdventOfCode2015.Solutions.Day18;
 using AdventOfCode2015.Solutions.Day2;

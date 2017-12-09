@@ -1,25 +1,21 @@
-﻿using System;
-namespace AdventOfCode2015.Solutions
+﻿namespace AdventOfCode2015.Solutions.Day11
 {
 	using ParserType = SingleLineStringParser;
 
-	internal class Day11B : IProblem
-	{
-		private readonly ParserType _parser;
-
-		public Day11B(ParserType parser)
+	internal class Day11B : Day11A
+    {
+		public override string Solve()
 		{
-			_parser = parser;
-		}
+		    var password = Parser.Parse().ToCharArray();
+		    var incrementer = new StringIncrementer(LowerCaseLetterWheel);
+		    var count = 0;
+		    foreach (var pwd in incrementer.IncrementPassword(password))
+		    {
+		        if (IsValidPassword(pwd) && ++count == 2)
+		            return new string(pwd);
+		    }
 
-		public Day11B() : this(new ParserType("Day11\\day11.in"))
-		{
-
-		}
-
-		public virtual string Solve()
-		{
-			return "";
-		}
+		    return "No valid password found.";
+        }
 	}
 }

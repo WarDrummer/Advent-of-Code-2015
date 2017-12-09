@@ -10,7 +10,7 @@ namespace AdventOfCode2015
         static void Main(string[] args)
         {
             Console.WriteLine(
-                ProblemFactory.Create(ProblemId.Day11A)
+                ProblemFactory.Create(ProblemId.Day11B)
                 .SendToClipboard()
                 .AppendTime()
                 .Solve());
