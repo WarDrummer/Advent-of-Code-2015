@@ -42,59 +42,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClipboardDecorator.cs" />
-    <Compile Include="Day10\Day10A.cs" />
-    <Compile Include="Day10\Day10B.cs" />
-    <Compile Include="Day12\Day12A.cs" />
-    <Compile Include="Day12\Day12B.cs" />
-    <Compile Include="Day16\Day16A.cs" />
-    <Compile Include="Day16\Day16B.cs" />
-    <Compile Include="Day16\TickerTape.cs" />
-    <Compile Include="Day18\Day18A.cs" />
-    <Compile Include="Day18\LightGrid.cs" />
-    <Compile Include="Day1\Day1B.cs" />
-    <Compile Include="Day1\Day1A.cs" />
-    <Compile Include="Day23\Computer.cs" />
-    <Compile Include="Day23\Day23B.cs" />
-    <Compile Include="Day23\Day23A.cs" />
-    <Compile Include="Day23\HalfInstruction.cs" />
-    <Compile Include="Day23\IncrementInstruction.cs" />
-    <Compile Include="Day23\Instruction.cs" />
-    <Compile Include="Day23\JumpIfEvenInstruction.cs" />
-    <Compile Include="Day23\JumpIfOneInstruction.cs" />
-    <Compile Include="Day23\JumpInstruction.cs" />
-    <Compile Include="Day23\TripleInstruction.cs" />
-    <Compile Include="Day24\Day24A.cs" />
-    <Compile Include="Day2\Day2B.cs" />
-    <Compile Include="Day2\Day2A.cs" />
-    <Compile Include="Day2\Package.cs" />
-    <Compile Include="Day2\PackageInputParser.cs" />
-    <Compile Include="Day3\Day3A.cs" />
-    <Compile Include="Day3\Day3B.cs" />
-    <Compile Include="Day4\Day4A.cs" />
-    <Compile Include="Day4\Day4B.cs" />
-    <Compile Include="Day5\Day5B.cs" />
-    <Compile Include="Day5\Day5A.cs" />
-    <Compile Include="Day6\Day6B.cs" />
-    <Compile Include="Day6\Day6A.cs" />
-    <Compile Include="Day6\LightUpdate.cs" />
-    <Compile Include="Day6\LightUpdateParser.cs" />
-    <Compile Include="Day6\UpdateType.cs" />
-    <Compile Include="Day7\AndInstruction.cs" />
-    <Compile Include="Day7\AssignmentInstruction.cs" />
-    <Compile Include="Day7\Day7A.cs" />
-    <Compile Include="Day7\Day7B.cs" />
-    <Compile Include="Day7\Instruction.cs" />
-    <Compile Include="Day7\InstructionParser.cs" />
-    <Compile Include="Day7\LeftShiftInstruction.cs" />
-    <Compile Include="Day7\NotInstruction.cs" />
-    <Compile Include="Day7\OrInstruction.cs" />
-    <Compile Include="Day7\RightShiftInstruction.cs" />
-    <Compile Include="Day8\Day8B.cs" />
-    <Compile Include="Day8\Day8A.cs" />
-    <Compile Include="Day9\Day9A.cs" />
-    <Compile Include="Day9\Day9B.cs" />
-    <Compile Include="Day9\Route.cs" />
-    <Compile Include="Day9\RouteCostParser.cs" />
+    <Compile Include="Days\Day10A.cs" />
+    <Compile Include="Days\Day10B.cs" />
+    <Compile Include="Days\Day12A.cs" />
+    <Compile Include="Days\Day12B.cs" />
+    <Compile Include="Days\Day16A.cs" />
+    <Compile Include="Days\Day16B.cs" />
+    <Compile Include="Days\Day18A.cs" />
+    <Compile Include="Days\Day01B.cs" />
+    <Compile Include="Days\Day01A.cs" />
+    <Compile Include="Days\Day23B.cs" />
+    <Compile Include="Days\Day23A.cs" />
+    <Compile Include="Days\Day24A.cs" />
+    <Compile Include="Days\Day02B.cs" />
+    <Compile Include="Days\Day02A.cs" />
+    <Compile Include="Days\Day03A.cs" />
+    <Compile Include="Days\Day03B.cs" />
+    <Compile Include="Days\Day04A.cs" />
+    <Compile Include="Days\Day04B.cs" />
+    <Compile Include="Days\Day05B.cs" />
+    <Compile Include="Days\Day05A.cs" />
+    <Compile Include="Days\Day06B.cs" />
+    <Compile Include="Days\Day06A.cs" />
+    <Compile Include="Days\Day07A.cs" />
+    <Compile Include="Days\Day07B.cs" />
+    <Compile Include="Days\Day08B.cs" />
+    <Compile Include="Days\Day08A.cs" />
+    <Compile Include="Days\Day09A.cs" />
+    <Compile Include="Days\Day09B.cs" />
     <Compile Include="Md5Stringifier.cs" />
     <Compile Include="Permutation.cs" />
     <Compile Include="ProblemFactory.cs" />
@@ -107,57 +82,57 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProblemTimerDecorator.cs" />
     <Compile Include="SubsetSum.cs" />
-    <Compile Include="Day11\Day11A.cs" />
-    <Compile Include="Day11\Day11B.cs" />
+    <Compile Include="Days\Day11A.cs" />
+    <Compile Include="Days\Day11B.cs" />
     <Compile Include="StringIncrementer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Day10\day10.in">
+    <None Include="Inputs\day10.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day12\day12.in">
+    <None Include="Inputs\day12.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day16\day16.in">
+    <None Include="Inputs\day16.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day18\day18.in">
+    <None Include="Inputs\day18.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day1\day1.in">
+    <None Include="Inputs\day01.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day23\Day23.in">
+    <None Include="Inputs\day23.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day24\day24.in">
+    <None Include="Inputs\day24.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day2\day2.in">
+    <None Include="Inputs\day02.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day3\day3.in">
+    <None Include="Inputs\day03.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day4\day4.in">
+    <None Include="Inputs\day04.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day5\day5.in">
+    <None Include="Inputs\day05.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day6\day6.in">
+    <None Include="Inputs\day06.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day7\day7.in">
+    <None Include="Inputs\day07.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day8\day8.in">
+    <None Include="Inputs\day08.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day9\day9.in">
+    <None Include="Inputs\day09.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Day11\day11.in">
+    <None Include="Inputs\day11.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

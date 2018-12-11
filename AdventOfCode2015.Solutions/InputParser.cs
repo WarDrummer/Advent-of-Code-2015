@@ -14,7 +14,7 @@ namespace AdventOfCode2015.Solutions
 
         protected IEnumerable<string> GetInput()
         {
-            using (var sr = new StreamReader(_inputFile))
+            using (var sr = new StreamReader($"Inputs\\{_inputFile}"))
             {
                 while (!sr.EndOfStream)
                 {
