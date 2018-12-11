@@ -44,6 +44,8 @@
     <Compile Include="ClipboardDecorator.cs" />
     <Compile Include="Day10\Day10A.cs" />
     <Compile Include="Day10\Day10B.cs" />
+    <Compile Include="Day12\Day12A.cs" />
+    <Compile Include="Day12\Day12B.cs" />
     <Compile Include="Day16\Day16A.cs" />
     <Compile Include="Day16\Day16B.cs" />
     <Compile Include="Day16\TickerTape.cs" />
@@ -113,6 +115,9 @@
     <None Include="Day10\day10.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Day12\day12.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Day16\day16.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -157,9 +162,7 @@
     </None>
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Folder Include="Day11\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

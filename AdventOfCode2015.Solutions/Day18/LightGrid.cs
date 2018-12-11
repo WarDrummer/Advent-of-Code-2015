@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 
 namespace AdventOfCode2015.Solutions.Day18
 {
