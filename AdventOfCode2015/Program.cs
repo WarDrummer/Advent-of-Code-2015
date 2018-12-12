@@ -43,17 +43,49 @@ namespace AdventOfCode2015
 
             ProblemFactory.CreateFullyDecorated<Day11A>().Solve().ToConsole("Day 11A");
             ProblemFactory.CreateFullyDecorated<Day11B>().Solve().ToConsole("Day 11B");
-            
-            // */
 
-            //ProblemFactory.CreateFullyDecorated<Day12A>().Solve().ToConsole("Day 12A");
-            //ProblemFactory.CreateFullyDecorated<Day12B>().Solve().ToConsole("Day 12B");
+            ProblemFactory.CreateFullyDecorated<Day12A>().Solve().ToConsole("Day 12A");
+            ProblemFactory.CreateFullyDecorated<Day12B>().Solve().ToConsole("Day 12B");
 
-            //ProblemFactory.CreateFullyDecorated<Day13A>().Solve().ToConsole("Day 13A");
-            //ProblemFactory.CreateFullyDecorated<Day13B>().Solve().ToConsole("Day 13B");
+            ProblemFactory.CreateFullyDecorated<Day13A>().Solve().ToConsole("Day 13A");
+            ProblemFactory.CreateFullyDecorated<Day13B>().Solve().ToConsole("Day 13B");
 
             ProblemFactory.CreateFullyDecorated<Day14A>().Solve().ToConsole("Day 14A");
             ProblemFactory.CreateFullyDecorated<Day14B>().Solve().ToConsole("Day 14B");
+
+            // */
+
+            //ProblemFactory.CreateFullyDecorated<Day15A>().Solve().ToConsole("Day 15A");
+            //ProblemFactory.CreateFullyDecorated<Day15B>().Solve().ToConsole("Day 15B");
+
+            //ProblemFactory.CreateFullyDecorated<Day16A>().Solve().ToConsole("Day 16A");
+            //ProblemFactory.CreateFullyDecorated<Day16B>().Solve().ToConsole("Day 16B");
+
+            //ProblemFactory.CreateFullyDecorated<Day17A>().Solve().ToConsole("Day 17A");
+            //ProblemFactory.CreateFullyDecorated<Day17B>().Solve().ToConsole("Day 17B");
+
+            ProblemFactory.CreateFullyDecorated<Day18A>().Solve().ToConsole("Day 18A");
+            ProblemFactory.CreateFullyDecorated<Day18B>().Solve().ToConsole("Day 18B");
+
+            //ProblemFactory.CreateFullyDecorated<Day19A>().Solve().ToConsole("Day 19A");
+            //ProblemFactory.CreateFullyDecorated<Day19B>().Solve().ToConsole("Day 19B");
+
+            //ProblemFactory.CreateFullyDecorated<Day20A>().Solve().ToConsole("Day 20A");
+            //ProblemFactory.CreateFullyDecorated<Day20B>().Solve().ToConsole("Day 20B");
+
+            //ProblemFactory.CreateFullyDecorated<Day21A>().Solve().ToConsole("Day 21A");
+            //ProblemFactory.CreateFullyDecorated<Day21B>().Solve().ToConsole("Day 21B");
+
+            //ProblemFactory.CreateFullyDecorated<Day22A>().Solve().ToConsole("Day 22A");
+            //ProblemFactory.CreateFullyDecorated<Day22B>().Solve().ToConsole("Day 22B");
+
+            //ProblemFactory.CreateFullyDecorated<Day23A>().Solve().ToConsole("Day 23A");
+            //ProblemFactory.CreateFullyDecorated<Day23B>().Solve().ToConsole("Day 23B");
+
+            //ProblemFactory.CreateFullyDecorated<Day24A>().Solve().ToConsole("Day 24A");
+            //ProblemFactory.CreateFullyDecorated<Day24B>().Solve().ToConsole("Day 24B");
+
+            //ProblemFactory.CreateFullyDecorated<Day25A>().Solve().ToConsole("Day 25A");
 
             Console.ReadKey();
         }

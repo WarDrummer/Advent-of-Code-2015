@@ -110,5 +110,4 @@ namespace AdventOfCode2015.Solutions.Days
         Off,
         Toggle
     }
-
 }

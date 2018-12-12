@@ -12,7 +12,32 @@
 
 		public virtual string Solve()
 		{
-			return "No valid password found.";
+		    var doc = Parser.Parse();
+		    var inString = false;
+		    var total = 0;
+		    for (var i = 0; i < doc.Length; i++)
+		    {
+		        var c = doc[i];
+		        if (c == '"')
+		            inString = !inString;
+
+		        if (inString)
+		            continue;
+
+		        var isNegative = false;
+		        if (c == '-')
+		        {
+		            isNegative = true;
+                    i++;
+		        }
+
+		        var num = 0;
+                while (char.IsDigit(doc[i]))
+		            num = num * 10 + doc[i++] - '0';
+		        total += isNegative ? -1 * num : num;
+		    }
+
+            return total.ToString();
 		}
 	}
 }
