@@ -32,7 +32,6 @@ namespace AdventOfCode2015
             ProblemFactory.CreateFullyDecorated<Day7A>().Solve().ToConsole("Day 7A");
             ProblemFactory.CreateFullyDecorated<Day7B>().Solve().ToConsole("Day 7B");
             
-
             ProblemFactory.CreateFullyDecorated<Day8A>().Solve().ToConsole("Day 8A");
             ProblemFactory.CreateFullyDecorated<Day8B>().Solve().ToConsole("Day 8B");
 
@@ -53,8 +52,8 @@ namespace AdventOfCode2015
             //ProblemFactory.CreateFullyDecorated<Day13A>().Solve().ToConsole("Day 13A");
             //ProblemFactory.CreateFullyDecorated<Day13B>().Solve().ToConsole("Day 13B");
 
-            //ProblemFactory.CreateFullyDecorated<Day14A>().Solve().ToConsole("Day 14A");
-            //ProblemFactory.CreateFullyDecorated<Day14B>().Solve().ToConsole("Day 14B");
+            ProblemFactory.CreateFullyDecorated<Day14A>().Solve().ToConsole("Day 14A");
+            ProblemFactory.CreateFullyDecorated<Day14B>().Solve().ToConsole("Day 14B");
 
             Console.ReadKey();
         }

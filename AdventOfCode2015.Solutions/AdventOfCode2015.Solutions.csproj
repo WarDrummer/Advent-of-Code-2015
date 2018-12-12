@@ -44,7 +44,11 @@
     <Compile Include="ClipboardDecorator.cs" />
     <Compile Include="Days\Day10A.cs" />
     <Compile Include="Days\Day10B.cs" />
+    <Compile Include="Days\Day14A.cs" />
+    <Compile Include="Days\Day14B.cs" />
+    <Compile Include="Days\Day13A.cs" />
     <Compile Include="Days\Day12A.cs" />
+    <Compile Include="Days\Day13B.cs" />
     <Compile Include="Days\Day12B.cs" />
     <Compile Include="Days\Day16A.cs" />
     <Compile Include="Days\Day16B.cs" />
@@ -90,7 +94,13 @@
     <None Include="Inputs\day10.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Inputs\day14.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Inputs\day12.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Inputs\day13.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Inputs\day16.in">
